@@ -1,3 +1,16 @@
-.result {
-    font-size: larger;
+div#pattren {
+    width: 100%;
+    
+}
+    div#pattren1 {
+        width: 100%;
+    
+}
+.blank {
+    width: 100%;
+}
+
+.flex {
+    display: flex !important;
+    justify-content: flex-start;
 }

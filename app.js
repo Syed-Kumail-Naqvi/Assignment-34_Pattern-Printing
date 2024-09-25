@@ -1,15 +1,27 @@
-// Taking Input From Userr
+// Taking Input From User
 
-var userValue = prompt("Enter Value of Number of Rows You want to Print");
+var user = prompt('Insert Value of Number of Rows');
 
-// Printing Result 
-
-for (var i = 1 ; i <= userValue ; i++){
-    var pattern = "";
-    
-        for (var j = 1 ; j <= i ; j++){
-            pattern =  pattern + " *";
-        }
-
-    console.log(pattern);
+for (var i = 1 ; i <= user ; i++) {
+    for (var j = 1 ; j <= i ; j++) {
+        document.write("*")
+    }
+    document.write('<br />');
 }
+
+
+    
+
+
+var userValue = prompt('Insert Value of Number of second Row');
+    
+for (var i = 1 ; i <= userValue ; i++) {
+    for (var j = 1 ; j <= i ; j++) {
+        document.write(i);
+        
+    }
+    document.write('<br />');
+}
+
+    
+    
